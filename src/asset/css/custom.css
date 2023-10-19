@@ -101,14 +101,22 @@
     font-size: 16px;
 
 }
-.des{
-    color: #000000;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
+.summaryBanner{
+    background-image: url("../image/background.svg");
+    min-height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.test
-{
-    width: 50% !important;
+
+.summaryBannerOverlay{
+    position: absolute;
+    min-height: 350px;
+    width: 100%;
+    background: rgba(0,0,0,0.6);
 }
+
+
+
 
